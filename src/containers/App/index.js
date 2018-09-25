@@ -4,7 +4,7 @@ class App extends Component {
   render() {
     console.log('hello world');
     return(
-      <div>hey</div>
+      <div>Cafe DripDry</div>
     );
   }
 }

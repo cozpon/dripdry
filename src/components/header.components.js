@@ -1,14 +1,34 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const MainHeader = () => {
     return (
-       <div>
+       <div className="header">
+        <div id="header-image">
+         <img src="CafeDripDry.png"></img>
+        </div>
+
         <div className="nav-links">
-          <Link to="/">Home </Link>
-          <Link to="/logout">Logout</Link>
-          <Link to="/termsofservice">Terms of Service</Link>
-          <Link to="/contact">Contact</Link>
+        <nav className="header-effect">
+          <NavLink to="/bar" >
+            <span data-hover="Bar">Bar</span>
+          </NavLink>
+        </nav>
+        <nav className="header-effect">
+          <NavLink to="/menu" >
+            <span data-hover="Menu">Menu</span>
+          </NavLink>
+        </nav>
+        <nav className="header-effect">
+          <NavLink to="/location" >
+            <span data-hover="Location">Location</span>
+          </NavLink>
+        </nav>
+        <nav className="header-effect">
+          <NavLink to="/contact" >
+            <span data-hover="Contact">Contact</span>
+          </NavLink>
+        </nav>
         </div>
       </div>
     );

@@ -2,4 +2,58 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background-color: #ffe798;
 }
+
+.header {
+  width: 100%;
+  background-color: #ffe798;
+  height: 100px;
+}
+
+#header-image img {
+  width: 10%;
+  float: left;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+}
+.nav-links a {
+  text-decoration: none;
+  font-family: 'Notable', sans-serif;
+  font-size: 22px;
+  margin-left: 20px;
+  color: #98B0FF;
+}
+
+/* Header Hover Effect */
+.header-effect a {
+  display: inline-block;
+  overflow: hidden; }
+
+.header-effect a span {
+  /*position: relative;*/
+  display: inline-block;
+  -webkit-transition: -webkit-transform 0.3s;
+  -moz-transition: -moz-transform 0.3s;
+  transition: transform 0.3s; }
+
+.header-effect a span::before {
+  position: absolute;
+  top: 100%;
+  content: attr(data-hover);
+  font-weight: 700;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0); }
+  @supports (-moz-appearance: none) {
+    .header-effect a span::before {
+      font-weight: 400; } }
+
+.header-effect a:hover span,
+.header-effect a:focus span {
+  -webkit-transform: translateY(-100%);
+  -moz-transform: translateY(-100%);
+  transform: translateY(-100%); }
