@@ -4,9 +4,7 @@ import { NavLink } from 'react-router-dom';
 const MainHeader = () => {
     return (
        <div className="header">
-        <div id="header-image">
-         <img src="CafeDripDry.png"></img>
-        </div>
+
 
         <div className="nav-links">
         <nav className="header-effect">

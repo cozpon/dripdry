@@ -2,9 +2,14 @@ import React, { Component } from 'react';
 
 class App extends Component {
   render() {
-    console.log('hello world');
     return(
-      <div>Cafe DripDry</div>
+      <div>
+        <img id="main-logo" src="CafeDripDry.png"></img>
+          <div id="main-text">
+            <br />
+            Cafe DripDry was born of a dream
+          </div>
+      </div>
     );
   }
 }
