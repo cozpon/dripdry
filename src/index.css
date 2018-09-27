@@ -68,12 +68,11 @@ body {
 }
 
 #main-logo {
-  margin-top: 17px;
-  margin-left: 31%;
-  margin-right: 35%;
+
+  margin-left: 32%;
   width: 30%;
   display: flex;
   background-color: #fff;
   padding: 1%;
-  opacity: .9;
+  opacity: .8;
 }

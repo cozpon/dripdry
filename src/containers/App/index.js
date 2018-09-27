@@ -6,7 +6,7 @@ class App extends Component {
       <div>
           <div id="main-text">
           <br />
-
+        <img id="main-logo" src="CafeDripDry.png"></img>
           </div>
       </div>
     );
