@@ -28,6 +28,7 @@ const MainHeader = () => {
           </NavLink>
         </nav>
         </div>
+        <img id="main-logo" src="CafeDripDry.png"></img>
       </div>
     );
   }

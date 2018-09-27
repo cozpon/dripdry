@@ -2,14 +2,20 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background-color: #FFE;
-
+  background-color: #fffdfd;
+  background-color: #f4f7ff;
+  background-image: url(https://i.imgur.com/sqNFfgX.jpg);
+  background-size: fit;
 }
+
+
 
 .header {
   width: 100%;
-  background-color: #ffe798;
-  height: 100px;
+  background-image: linear-gradient(to bottom, #FFAE97, #FFC2B0);
+  background-image: linear-gradient(to bottom, #ffde6f, #ffe799);
+  height: 110px;
+  opacity: .95;
 }
 
 .nav-links {
@@ -20,9 +26,10 @@ body {
 .nav-links a {
   text-decoration: none;
   font-family: 'Notable', sans-serif;
-  font-size: 22px;
+  font-size: 30px;
   margin-left: 20px;
-  color: #15113F;
+  color: #FFF;
+
 }
 
 /* Header Hover Effect */
@@ -61,9 +68,12 @@ body {
 }
 
 #main-logo {
-  padding-top: 20px;
-  width: 33%;
+  margin-top: 17px;
+  margin-left: 31%;
+  margin-right: 35%;
+  width: 30%;
   display: flex;
-  margin-left: 33%;
-  margin-right: 33%;
+  background-color: #fff;
+  padding: 1%;
+  opacity: .9;
 }
