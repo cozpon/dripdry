@@ -4,8 +4,6 @@ import { NavLink } from 'react-router-dom';
 const MainHeader = () => {
     return (
        <div className="header">
-
-
         <div className="nav-links">
         <nav className="header-effect">
           <NavLink to="/bar" >
@@ -23,7 +21,7 @@ const MainHeader = () => {
           </NavLink>
         </nav>
         <nav className="header-effect">
-          <NavLink to="/contact" >
+          <NavLink to="/" >
             <span data-hover="Contact">Contact</span>
           </NavLink>
         </nav>

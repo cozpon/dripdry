@@ -2,12 +2,30 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+}
+.main {
   background-color: #fffdfd;
   background-color: #f4f7ff;
   background-image: url(https://i.imgur.com/sqNFfgX.jpg);
   background-size: fit;
-}
+  height: 800px;
+ }
 
+ .menu {
+  background-color: #fffdfd;
+  background-color: #f4f7ff;
+  background-image: url(https://i.imgur.com/sqNFfgX.jpg);
+  background-position: right;
+  height: 800px;
+ }
+
+ .location {
+  background-color: #fffdfd;
+  background-color: #f4f7ff;
+  background-image: url(https://i.imgur.com/sqNFfgX.jpg);
+  background-position: center;
+  height: 800px;
+ }
 
 
 .header {
@@ -64,13 +82,24 @@ body {
 
 #main-text {
   text-align: center;
-  font-size: 20px;
+  font-size: 55px;
+  font-family: 'Notable', sans-serif;
+  text-shadow: 3px 3px 20px #000000;
 }
+#hours-text {
+  text-align: center;
+  font-size: 55px;
+  color: #ffde6f;
+  text-shadow: 2px 3px 8px #FFF;
+}
+#main-text a {
+  text-decoration: none;
+  color: #FFF;
 
+}
 #main-logo {
-
-  margin-left: 32%;
-  width: 30%;
+  margin-left: 33%;
+  width: 33%;
   display: flex;
   background-color: #fff;
   padding: 1%;

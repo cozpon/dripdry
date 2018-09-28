@@ -12,6 +12,8 @@ import {
 import './index.css';
 
 import App from './containers/App';
+import Menu from './containers/Menu';
+import Location from './containers/Location';
 
 import MainHeader from './components/header.components';
 
@@ -23,11 +25,10 @@ ReactDOM.render(
       <div id="source">
         <header id="global-nav-header">
         <MainHeader />
-          <Link to="/">
-            <div id="logo"></div>
-          </Link>
         </header>
-        <Route exact path="/" component={App} />
+        <Route exact path="/" component={ App } />
+        <Route path="/menu" component={ Menu } />
+        <Route path="/location" component={ Location } />
       </div>
     </Router>
   </IntlProvider>,
