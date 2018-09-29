@@ -1,50 +1,42 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
-.main {
-  background-color: #fffdfd;
-  background-color: #f4f7ff;
-  background-image: url(https://i.imgur.com/sqNFfgX.jpg);
-  background-size: fit;
-  height: 800px;
- }
-
- .menu {
-  background-color: #fffdfd;
-  background-color: #f4f7ff;
-  background-image: url(https://i.imgur.com/sqNFfgX.jpg);
-  background-position: right;
-  height: 800px;
- }
-
- .location {
-  background-color: #fffdfd;
-  background-color: #f4f7ff;
-  background-image: url(https://i.imgur.com/sqNFfgX.jpg);
-  background-position: center;
-  height: 800px;
- }
-
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 3px solid #FFF;
+    margin: 1em 0;
+    width: 15%;
+    padding: 0;
+}
 
 .header {
   width: 100%;
-  background-image: linear-gradient(to bottom, #FFAE97, #FFC2B0);
   background-image: linear-gradient(to bottom, #ffde6f, #ffe799);
-  height: 110px;
+  height: 410px;
+  opacity: .95;
+}
+
+.barheader {
+  width: 100%;
+  background-image: linear-gradient(to bottom, #FFAE97, #FFC2B0);
+  height: 410px;
   opacity: .95;
 }
 
 .nav-links {
-  display: flex;
-  justify-content: space-around;
-  padding-top: 50px;
+  padding: 20px;
+  letter-spacing: 3px;
+  font-family: 'Scope One', serif;
 }
+
 .nav-links a {
   text-decoration: none;
-  font-family: 'Notable', sans-serif;
-  font-size: 30px;
+  text-transform: uppercase;
+  font-size: 40px;
   margin-left: 20px;
   color: #FFF;
 
@@ -81,27 +73,64 @@ body {
   transform: translateY(-100%); }
 
 #main-text {
-  text-align: center;
   font-size: 55px;
-  font-family: 'Notable', sans-serif;
-  text-shadow: 3px 3px 20px #000000;
 }
+
 #hours-text {
+  padding-top: 30px;
+  padding-bottom: 20px;
   text-align: center;
-  font-size: 55px;
-  color: #ffde6f;
-  text-shadow: 2px 3px 8px #FFF;
+  font-size: 16px;
+  color: #000;
+  margin: -3px;
+  font-family: 'Scope One', serif;
 }
+
+#location-text {
+  font-size: 30px;
+  width: 30%;
+  opacity: .8;
+  margin-left: 15%;
+  padding: 20px;
+  font-family: 'Scope One', serif;
+}
+#bar-text {
+  font-size: 30px;
+  width: 30%;
+  opacity: .8;
+  margin-left: 15%;
+  padding: 20px;
+  font-family: 'Scope One', serif;
+}
+
+#drink-text {
+  font-size: 30px;
+  width: 25%;
+  opacity: .8;
+  margin-left: 15%;
+  padding: 20px;
+  font-family: 'Scope One', serif;
+}
+
+#menu-text {
+  font-size: 30px;
+  width: 25%;
+  opacity: .8;
+  margin-left: 15%;
+  padding: 20px;
+  font-family: 'Scope One', serif;
+}
+
 #main-text a {
   text-decoration: none;
   color: #FFF;
-
 }
 #main-logo {
   margin-left: 33%;
   width: 33%;
   display: flex;
-  background-color: #fff;
+
   padding: 1%;
   opacity: .8;
 }
+

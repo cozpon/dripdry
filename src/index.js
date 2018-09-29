@@ -14,21 +14,18 @@ import './index.css';
 import App from './containers/App';
 import Menu from './containers/Menu';
 import Location from './containers/Location';
-
-import MainHeader from './components/header.components';
-
-
+import Bar from './containers/Bar';
+import Drinks from './containers/Drinks';
 
 ReactDOM.render(
   <IntlProvider locale="en">
     <Router>
       <div id="source">
-        <header id="global-nav-header">
-        <MainHeader />
-        </header>
         <Route exact path="/" component={ App } />
         <Route path="/menu" component={ Menu } />
         <Route path="/location" component={ Location } />
+        <Route path="/bar" component={ Bar } />
+        <Route path="/drinks" component={ Drinks } />
       </div>
     </Router>
   </IntlProvider>,
