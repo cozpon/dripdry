@@ -20,6 +20,7 @@ hr {
   opacity: .95;
 }
 
+
 .barheader {
   width: 100%;
   background-image: linear-gradient(to bottom, #FFAE97, #FFC2B0);
@@ -39,8 +40,9 @@ hr {
   font-size: 40px;
   margin-left: 20px;
   color: #FFF;
-
 }
+
+
 
 /* Header Hover Effect */
 .header-effect a {
@@ -129,8 +131,26 @@ hr {
   margin-left: 33%;
   width: 33%;
   display: flex;
-
   padding: 1%;
   opacity: .8;
 }
 
+@media only screen and (max-width: 400px) {
+  .header {
+    height: 50%;
+  }
+  #main-logo {
+    width: 70%;
+    justify-content: center;
+    margin-left: 15%;
+  }
+  .nav-links a {
+    font-size: 35px;
+  }
+  #main-text a {
+    font-size: 25px;
+  }
+  hr {
+   width: 100%;
+  }
+}
